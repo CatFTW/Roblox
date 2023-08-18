@@ -3933,6 +3933,7 @@ function library:CreateWindow(options, ...)
 				colored[1 + #colored] = {labelHeadline, "TextColor3", "elementText"}
 				labelHeadline.TextSize = 14
 				labelHeadline.TextXAlignment = Enum.TextXAlignment.Left
+				labelHeadline.RichText = true
 				labelPositioner.Name = "labelPositioner"
 				labelPositioner.Parent = newLabel
 				labelPositioner.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -7282,16 +7283,16 @@ function library:CreateWindow(options, ...)
 				end
 			end
 		end
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 		return tabFunctions
 	end
 	windowFunctions.AddTab = windowFunctions.CreateTab
