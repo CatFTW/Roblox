@@ -3927,7 +3927,7 @@ function library:CreateWindow(options, ...)
 				labelHeadline.BackgroundTransparency = 1
 				labelHeadline.Position = UDim2.fromScale(0.031, 0.165842161)
 				labelHeadline.Size = UDim2.fromOffset(215, 12)
-				labelHeadline.Font = Enum.Font.Roboto
+				labelHeadline.Font = Enum.Font.Code
 				labelHeadline.Text = (labelName and tostring(labelName)) or "Empty Text"
 				labelHeadline.TextColor3 = library.colors.elementText
 				colored[1 + #colored] = {labelHeadline, "TextColor3", "elementText"}
